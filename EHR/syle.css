@@ -1,0 +1,47 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { color: #222; line-height: 1.6; }
+
+header {
+  background: linear-gradient(to right, #2563eb, #1e40af);
+    color: white; text-align: center; padding: 3rem 1rem;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    header p { font-size: 1.2rem; margin-bottom: 1.5rem; }
+
+    .btn {
+      background: white; color: #2563eb;
+        padding: 0.8rem 1.5rem; border-radius: 5px;
+          font-weight: bold; text-decoration: none;
+            transition: 0.3s ease;
+            }
+            .btn:hover { background: #f0f0f0; }
+
+            section { padding: 3rem 1.5rem; max-width: 1000px; margin: auto; }
+            .section-title { text-align:center; margin-bottom:2rem; font-size:1.8rem; }
+
+            .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+            .card {
+              border: 1px solid #eee; padding: 2rem; border-radius: 10px;
+                text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+                }
+                .card h3 { margin-bottom: 0.5rem; color: #2563eb; }
+
+                form { max-width: 400px; margin: auto; display: flex; flex-direction: column; }
+                form input, form button {
+                  padding: 0.8rem; margin: 0.5rem 0; border-radius: 5px;
+                    border: 1px solid #ccc; font-size: 1rem;
+                    }
+                    form button {
+                      background: #2563eb; color: white; font-weight: bold; cursor: pointer;
+                        border: none; transition: 0.3s ease;
+                        }
+                        form button:hover { background: #1e40af; }
+                        #formMsg { margin-top: 1rem; text-align:center; font-weight:bold; }
+
+                        .center-text { max-width:700px; margin:auto; text-align:center; }
+
+                        footer {
+                          background: #f9f9f9; text-align: center; padding: 1rem;
+                            border-top: 1px solid #eee; font-size: 0.9rem;
+                            }
+                            

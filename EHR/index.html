@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinic HMS – Digitize Your Clinic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero -->
+  <header>
+    <h1>Digitize Your Clinic in Minutes</h1>
+    <p>Simple, secure, offline-ready HMS built for Nigerian clinics</p>
+    <a href="#signup" class="btn">Join Pilot Program</a>
+  </header>
+
+  <!-- Features -->
+  <section>
+    <h2 class="section-title">Why Choose Clinic HMS?</h2>
+    <div class="features">
+      <div class="card">
+        <h3>📋 Patient Records</h3>
+        <p>Register and find patients instantly with complete history access.</p>
+      </div>
+      <div class="card">
+        <h3>💊 Prescriptions & Pharmacy</h3>
+        <p>Digitize prescriptions and track inventory in real time.</p>
+      </div>
+      <div class="card">
+        <h3>💵 Billing Made Easy</h3>
+        <p>Generate invoices, track payments, and reduce errors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section>
+    <h2 class="section-title">How It Works</h2>
+    <p class="center-text">
+      Our system is cloud-based and works offline when internet is down. 
+      Clinics can access patient records, billing, and prescriptions anytime, anywhere. 
+      Sign up for the pilot to be among the first clinics in Nigeria to go fully digital.
+    </p>
+  </section>
+
+  <!-- Signup Form -->
+  <section id="signup">
+    <h2 class="section-title">Sign Up for Free Pilot</h2>
+    <form id="pilotForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="clinic_name" placeholder="Clinic Name" required />
+      <input type="text" name="contact_name" placeholder="Contact Person" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <button type="submit">Submit Application</button>
+      <p id="formMsg"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Clinic HMS • Made for Nigerian Healthcare
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
